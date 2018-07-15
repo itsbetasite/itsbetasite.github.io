@@ -1,7 +1,5 @@
-+++
-date = "2018-07-15T08:38:32+00:00"
-draft = true
-image = "/uploads/og-image.jpg"
-title = "Eli"
+---
+title: Eli
+image: /uploads/31483039_1735495649878527_7523014344297152512_n.png
+---
 
-+++
