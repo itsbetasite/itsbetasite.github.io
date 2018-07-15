@@ -1,0 +1,13 @@
+<h3>Photos</h3>
+<div class="block-container">
+		{{- range .Data.Pages -}}
+			{{- if eq .Type "photos" -}}
+			<div class="block">
+				<div class="image-container">
+					<img src="{{ .Params.image }}" alt=".Title">
+				</div>
+				<p>{{ .Title }}</p>
+			</div>
+			{{- end -}}
+		{{- end -}}
+</div>

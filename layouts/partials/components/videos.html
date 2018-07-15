@@ -1,0 +1,13 @@
+<h3>Videos</h3>
+<div class="video-container">
+		{{- range .Data.Pages -}}
+			{{- if eq .Type "videos" -}}
+			<div class="video">
+				<div class="image-container">
+					<iframe width="560" height="315" src="{{ .Params.src }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+				<p>{{ .Title }}</p>
+			</div>
+			{{- end -}}
+		{{- end -}}
+</div>
