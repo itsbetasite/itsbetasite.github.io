@@ -12,5 +12,4 @@ fields:
   name: image
   label: image
 pages:
-- content/videos/nekkoya.md
 - content/photos/jems.md
