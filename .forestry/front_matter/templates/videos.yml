@@ -1,0 +1,16 @@
+---
+label: Videos
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  default: Title
+  label: title
+  name: title
+  config:
+    required: true
+- type: text
+  name: src
+  label: youtube
+  config:
+    required: true
