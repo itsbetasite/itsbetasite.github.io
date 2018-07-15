@@ -11,12 +11,12 @@ collections:
     folder: "content/photos"
     create: true
     fields:
-      - {label: "Caption", name: "title", widget: "text"}
+      - {label: "Title", name: "title", widget: "text"}
       - {label: "Image", name: "image", widget: "image"}
   - name: "videos"
     label: "Videos"
     folder: "content/videos"
     create: true
     fields:
-      - {label: "Caption", name: "title", widget: "text"}
+      - {label: "Title", name: "title", widget: "text"}
       - {label: "Source", name: "src", widget: "text"}
