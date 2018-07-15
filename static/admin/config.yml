@@ -10,7 +10,6 @@ collections:
     label: "Photos"
     folder: "content/photos"
     create: true
-    slug: {{year}}-{{month}}-{{day}}-{{slug}}
     fields:
       - {label: "Caption", name: "title", widget: "text"}
       - {label: "Image", name: "image", widget: "image"}
@@ -18,7 +17,6 @@ collections:
     label: "Videos"
     folder: "content/videos"
     create: true
-    slug: {{year}}-{{month}}-{{day}}-{{slug}}
     fields:
       - {label: "Caption", name: "title", widget: "text"}
       - {label: "Source", name: "src", widget: "text"}
