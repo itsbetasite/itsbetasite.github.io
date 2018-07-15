@@ -1,0 +1,13 @@
+---
+label: Photos
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  label: title
+  name: title
+  config:
+    required: true
+- type: file
+  name: image
+  label: image
